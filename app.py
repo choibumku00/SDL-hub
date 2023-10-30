@@ -125,7 +125,7 @@ st.set_page_config(page_title="Digital health", layout="wide")
 with st.sidebar:
     st.markdown("# Senior Digital Literacy Hub")
     st.write("고령 인구의 스마트한 삶을 지원해줍니다😊")
-    st.image('data/digital_run_picture.png', use_column_width = True)
+    st.image('./data/digital_run_picture.png', use_column_width = True)
     st.markdown("## 소개")
     st.markdown("**Senior Digital Literacy Hub**는 고령 인구를 위하여 필요한 영상을 더 빨리 찾을 수 있도록 도와주고, 이해한 내용을 알 수 있습니다.")
     st.markdown("## 특징")
