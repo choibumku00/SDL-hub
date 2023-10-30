@@ -379,7 +379,7 @@ with tab1:
                             pickle.dump(selected_video, file)
                 
                 st.video(item.url) # Show Video
-                st.success(f"Recommended score: {item.similarity}")
+                st.success(f"추천 점수: {item.similarity*100}") # 임의로 *100함
                 st.write(f"**{item.name}**")
                 # st.write(f"Recommended score {}")
                 st.write(item.desc)
